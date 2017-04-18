@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" time-out="4000" verbose="1">
+
+	<listeners>
+<!-- 		<listener class-name="com.testng.code.TestListener"> -->
+<!-- 		</listener> -->
+		
+<!-- 		<listener class-name="com.testng.code.AnnotationTransformer"> -->
+<!-- 		</listener> -->
+				
+	</listeners>
+
+	<test name="TestName1">
+
+		<classes>
+			<!-- <class name="com.testng.code.ExecuteOnlyFailedTestcases"/> -->
+			<class name="com.testng.code.TimeOutTest" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
+	
